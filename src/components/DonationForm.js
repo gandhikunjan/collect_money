@@ -29,14 +29,14 @@ class DonationForm extends Component{
                 <div className="col-md-8 col-md-offset-2">
                     {errorDisplay}
                     <div className="search-form">
-                        <h1 className="text-center">DONATION</h1>
+                        <h1 className="text-center">OT100 Subscriptio PAYG</h1>
                         <form onSubmit={this.onSubmit.bind(this)}>
                             <div className="col-md-3">
                                 <div className="form-group">
                                     <label className="form-label" htmlFor="currency">Select Currency</label>
                                     <select className="form-control" ref="currency" id="currency">
                                         <option value="USD">USD</option>
-                                        <option value="EUR">EUR</option>
+                                        <option value="EUR">KES</option>
                                     </select>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ class DonationForm extends Component{
                                     <input type="text" className="form-control" ref="amount" id="amount" placeholder="Amount" />
                                 </div>
                             </div>
-                            <button className="btn btn-primary btn-block" disabled={this.state.canSubmit}>Donate</button>
+                            <button className="btn btn-primary btn-block" disabled={this.state.canSubmit}>Continue Payment</button>
                         </form>
                     </div>
                 </div>
