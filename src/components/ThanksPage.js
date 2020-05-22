@@ -20,8 +20,8 @@ class ThanksPage extends Component{
         return (
             <div>
                 <div className="col-md-8 col-md-offset-2">
-                    <h1 className="text-center thanksSpace">Thanks For Donating To Our Organization</h1>
-                    <h6 className="text-center">Below is your donation details</h6>
+                    <h1 className="text-center thanksSpace">Thanks for Subscribing to OT100 Services</h1>
+                    <h6 className="text-center">Below are  details</h6>
                     <ul className="list-group">
                         <li className="list-group-item">
                             <strong>Currency: </strong>{this.state.donationData.currency}

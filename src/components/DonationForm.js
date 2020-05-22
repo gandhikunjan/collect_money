@@ -29,7 +29,7 @@ class DonationForm extends Component{
                 <div className="col-md-8 col-md-offset-2">
                     {errorDisplay}
                     <div className="search-form">
-                        <h1 className="text-center">OT100 Subscriptio PAYG</h1>
+                        <h1 className="text-center">OT100 Subscription PAYG</h1>
                         <form onSubmit={this.onSubmit.bind(this)}>
                             <div className="col-md-3">
                                 <div className="form-group">
